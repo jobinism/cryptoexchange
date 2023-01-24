@@ -30,7 +30,7 @@ function App() {
   return (
     <div className='coin-app'>
       <div className='coin-search'>
-        <h1 className='coin-text'> Find Yo Money!</h1>
+        <h1 className='coin-text'> Search for your favourite coin below</h1>
           <form>
             <input 
             type='text' 
