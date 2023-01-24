@@ -39,12 +39,12 @@ function App() {
             onChange={handleChange} />
           </form>
       </div>
-      <div className='title-row' style={{display: 'flex', justifyContent: 'space-between'}}>
-            <h3>COIN</h3>|
-            <h3>PRICE</h3>|
-            <h3>VOLUME</h3>|
-            <h3>PCT%</h3>|
-            <h3>MKTCAP</h3>
+      <div className='title-row'>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|COIN|&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PRICE|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|VOLUME|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PCT%|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MKTCAP|&nbsp;</h3>
           </div>
       {filteredCoins.map(coin => {
         return (
