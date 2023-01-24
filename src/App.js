@@ -30,7 +30,7 @@ function App() {
   return (
     <div className='coin-app'>
       <div className='coin-search'>
-        <h1 className='coin-text'> Search for your favourite coin below</h1>
+        <h1 className='coin-text'>🇨🇦 Search for your favourite coin below 🇨🇦</h1>
           <form>
             <input 
             type='text' 
@@ -40,11 +40,11 @@ function App() {
           </form>
       </div>
       <div className='title-row'>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|COIN|&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PRICE|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|VOLUME|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|PCT%|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
-            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|MKTCAP|&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VOLUME&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PCT%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MKTCAP&nbsp;</h3>
           </div>
       {filteredCoins.map(coin => {
         return (
