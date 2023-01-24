@@ -39,8 +39,17 @@ function App() {
             onChange={handleChange} />
           </form>
       </div>
+      <div className='title-row' style={{display: 'flex', justifyContent: 'space-between'}}>
+            <h3>COIN</h3>|
+            <h3>PRICE</h3>|
+            <h3>VOLUME</h3>|
+            <h3>PCT%</h3>|
+            <h3>MKTCAP</h3>
+          </div>
       {filteredCoins.map(coin => {
         return (
+          <>
+
         <Coin 
         key={coin.id} 
         name={coin.name} 
@@ -51,6 +60,7 @@ function App() {
         priceChange={coin.price_change_percentage_24h}
         volume={coin.total_volume}
          />
+         </>
          )
         
       })}
